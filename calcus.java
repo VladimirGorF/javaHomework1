@@ -16,8 +16,8 @@ public class calcus {
 
             int sum = n + c;
             int dif = n - c;
-            int div = n - c;
-            int mult = n - c;
+            int div = n / c;
+            int mult = n * c;
 
             switch (oper) {
                 case "+":
@@ -30,7 +30,7 @@ public class calcus {
                     System.out.printf("%d * %d = %d\n", n, c, mult);
                     break;
                 case "/":
-                    System.out.printf("%d * %d = %d\n", n, c, div);
+                    System.out.printf("%d / %d = %d\n", n, c, div);
                     break;
             }
         } catch (Exception e) {
